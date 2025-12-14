@@ -1,0 +1,14 @@
+resources:
+  - ../base
+namePrefix: prod-
+
+labels:
+  - includeSelectors: true
+    pairs:
+      environment: prod
+
+patches:
+  - path: service-patch.yaml
+    target:
+      labelSelector: 'svc=flask-front'
+  - path: deployment-patch.yaml
