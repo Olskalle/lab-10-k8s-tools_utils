@@ -1,3 +1,7 @@
+# Зольников В.В., ФИТ-2024-НМ. ЛР 10
+
+## Подготовка
+
 Устанавливаем Helm:
 
 ![Pasted image 20251214013323.png](attachments/Pasted%20image%2020251214013323.png)
@@ -8,6 +12,8 @@
 
 ![Pasted image 20251214013752.png](attachments/Pasted%20image%2020251214013752.png)
 
+Конвертируем compose-файл в Helm чарт: 
+
 ![Pasted image 20251214014239.png](attachments/Pasted%20image%2020251214014239.png)
 
 После конвертации дорабатываем файлы и переименовываем чарт. Упаковываем:
@@ -16,6 +22,7 @@
 
 ![Pasted image 20251214014604.png](attachments/Pasted%20image%2020251214014604.png)
 
+## Установка релиза
 Устанавливаем релиз:
 
 ![Pasted image 20251214015019.png](attachments/Pasted%20image%2020251214015019.png)
@@ -32,6 +39,7 @@
 
 ![Pasted image 20251214020040.png](attachments/Pasted%20image%2020251214020040.png)
 
+## Применение переменных
 Добавляем values:
 
 ![Pasted image 20251214020316.png](attachments/Pasted%20image%2020251214020316.png)
@@ -54,6 +62,7 @@
 
 ![Pasted image 20251214023952.png](attachments/Pasted%20image%2020251214023952.png)
 
+## Kustomize
 Установка Kustomize:
 
 ![Pasted image 20251214024459.png](attachments/Pasted%20image%2020251214024459.png)
